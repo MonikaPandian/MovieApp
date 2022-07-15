@@ -9,7 +9,7 @@ let url = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&a
 
 let imgUrl = "https://image.tmdb.org/t/p/w1280"
 
-let searchUrl = "https://api.themoviedb.org/3/search/movie?sort_by=popularity.desc&api_key=e6d1bfba35555aa75480da3861df251c"
+let searchUrl = "https://api.themoviedb.org/3/search/movie?sort_by=popularity.desc&api_key=e6d1bfba35555aa75480da3861df251c&query="
 
 //Get Movies
 getMovieData(url)
